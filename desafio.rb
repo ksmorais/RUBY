@@ -1,6 +1,7 @@
-num1 =gets.to_i
-num2 =gets.to_i
+puts 'DIGITE UM NÚMERO'
+num1 = gets.to_i
 
-PROD = num1*num2
+puts 'DIGITE UM NÚMERO'
+num2 = gets.to_i
 
-puts PROD 
+puts "PROD = #{num1*num2}"

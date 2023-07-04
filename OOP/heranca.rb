@@ -4,15 +4,19 @@
 
 #ex animal
 
-class animal
-    def dorme
+class Animal
+
+    def dormir
         "ZzZzzZ"
+    end
+
     def pula 
         "toin, toin"
     end
 end
 
-class Gato < animal
+class Gato < Animal
+
     def miar
         "miau"
     end
@@ -20,5 +24,5 @@ end
 
 gato = Gato.new
 puts gato.miar
-puts gato.dorme
+puts gato.dormir
 puts gato.pula

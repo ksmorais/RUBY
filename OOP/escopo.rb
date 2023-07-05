@@ -1,0 +1,1 @@
+#Define onde uma variavel estara disponivel dentro do seu programa 
